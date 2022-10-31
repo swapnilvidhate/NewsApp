@@ -2,10 +2,11 @@ import React from 'react'
 
 const NoReasultsAvailable = ({query}) => {
     return (
-        <div
+        <>
+         <div
             className="container px-3 my-5"
             style={{ maxWidth: "60vw" }}
-        >
+         >
             <div className="card text-white bg-dark ">
                 <div className="card-header pl-4">
                     You Searched - {query}
@@ -20,7 +21,8 @@ const NoReasultsAvailable = ({query}) => {
                     </p>
                 </div>
             </div>
-        </div>
+         </div>
+        </>
     )
 }
 
